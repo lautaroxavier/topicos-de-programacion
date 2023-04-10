@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1680641165 source:d:\backup\archivos\repos\topicos\vectoresypunteros\main.c
+	<stdio.h>
+	<stdlib.h>
+	"vectores.h"
+
+1680641599 d:\backup\archivos\repos\topicos\vectoresypunteros\vectores.h
+
+1680641444 source:d:\backup\archivos\repos\topicos\vectoresypunteros\vectores.c
+	"vectores.h"
+
