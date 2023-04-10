@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1680638436 source:d:\backup\archivos\repos\topicos\topicos-clase1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
