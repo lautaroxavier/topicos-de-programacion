@@ -10,13 +10,14 @@ void mostrarVector(int * v, int ce){
 }
 
 int insertarEnPos(int * v, int pos, int ce, int elem, int tam){
+    int * start = v;
     // salir de la funcion si el vector esta lleno
     // o la posicion es invalida
     if(ce == tam || pos > ce){
         return ce;
     }
     v += ce;
-    while(v != pos){
+    while(v != (start + pos)){
         *v = *(v-1);
         v--;
     }
@@ -42,12 +43,13 @@ int insertarOrdenado(int * v, int ce, int elem, int tam){
 }
 
 int eliminarPos(int * v, int pos, int ce){
+    int * start = v;
     // posicion invalida
     if(pos >= ce){
         return ce;
     }
     v += pos;
-    while(v < (v + ce - 1)){
+    while(v < (start + ce - 1)){
         *v = *(v+1);
         v++;
     }
