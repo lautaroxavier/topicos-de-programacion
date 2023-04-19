@@ -1,11 +1,18 @@
 # depslib dependency file v1.0
-1681181844 source:d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\vectores.c
+1681246022 source:d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\vectores.c
 	"vectores.h"
+	<stdio.h>
 
 1681180245 d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\vectores.h
 
-1681181394 source:d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\main.c
+1681829268 source:d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\main.c
 	<stdio.h>
 	<stdlib.h>
 	"vectores.h"
+	"cadenas.h"
+
+1681829915 source:d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\cadenas.c
+	"cadenas.h"
+
+1681829660 d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\cadenas.h
 
