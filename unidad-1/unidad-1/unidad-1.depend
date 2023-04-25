@@ -5,14 +5,20 @@
 
 1681180245 d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\vectores.h
 
-1681829268 source:d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\main.c
+1682381073 source:d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\main.c
 	<stdio.h>
 	<stdlib.h>
+	<assert.h>
 	"vectores.h"
 	"cadenas.h"
+	"matrices.h"
 
-1681829915 source:d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\cadenas.c
+1682357330 source:d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\cadenas.c
 	"cadenas.h"
 
-1681829660 d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\cadenas.h
+1682357365 d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\cadenas.h
+
+1682384625 source:d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\matrices.c
+
+1682378496 d:\backup\archivos\repos\topicos-de-programacion\unidad-1\unidad-1\matrices.h
 
