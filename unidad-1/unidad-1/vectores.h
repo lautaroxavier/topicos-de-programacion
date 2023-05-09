@@ -1,6 +1,8 @@
 #ifndef VECTORES_H_INCLUDED
 #define VECTORES_H_INCLUDED
 
+
+
 void mostrarVector(int*, int);
 
 int insertarEnPos(int * v, int pos, int ce, int elem, int tam);

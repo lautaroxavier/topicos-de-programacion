@@ -1,5 +1,6 @@
 #include "vectores.h"
 #include <stdio.h>
+
 void mostrarVector(int * v, int ce){
     printf("[");
     for(int i = 0; i < ce; i++){
