@@ -10,40 +10,39 @@ int* __cargarMatrizEspiralCentroAIAD(int mat[][MAX_COL], int filas, int columnas
 //    printf("%d",filaInf);
 //    printf("%d",colIzq);
 //    printf("%d",colDer);
-//    printf("%d",i);
-//    printf("%d",j);
+    printf("primer%d",i);
+    printf("primer%d",j);
     while(filaSup >= -1 &&
           filaInf <= filas &&
           colIzq >= -1 &&
           colDer <= columnas){
         // mientras i > filaSup
-        while(i > filaSup){
-            printf("%d\n",mat[i][j]);
+        while(i > filaSup && filaSup >= -1){
+            printf("i:%d j:%d\n",i,j);
             *vec = mat[i][j];
             vec++;
             i--;
         }
         filaSup--;
         // mientras j > colIzq
-        while(j > colIzq){
-            printf("%d\n",mat[i][j]);
+        while(j > colIzq && colIzq >= -1){
+            printf("i:%d j:%d\n",i,j);
             *vec = mat[i][j];
             vec++;
             j--;
         }
         colIzq--;
-
         // mientras i < filaInf
-        while(i < filaInf){
-            printf("%d\n",mat[i][j]);
+        while(i < filaInf && filaInf <= filas){
+            printf("i:%d j:%d\n",i,j);
             *vec = mat[i][j];
             vec++;
             i++;
         }
         filaInf++;
         // mientras j < colDer
-        while(j < colDer){
-            printf("%d\n",mat[i][j]);
+        while(j < colDer && colDer <= columnas){
+            printf("i:%d j:%d\n",i,j);
             *vec = mat[i][j];
             vec++;
             j++;

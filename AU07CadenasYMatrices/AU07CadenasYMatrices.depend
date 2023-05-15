@@ -111,3 +111,34 @@
 1683057695 source:c:\users\laboratorios\downloads\au07cadenasymatrices\matrices.c
 	"Matrices.h"
 
+1683638896 source:d:\backup\archivos\repos\topicos-de-programacion\au07cadenasymatrices\cadenas.c
+
+1683638896 source:d:\backup\archivos\repos\topicos-de-programacion\au07cadenasymatrices\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cadenas.h"
+	"Matrices.h"
+	"minunit.h"
+
+1683638896 d:\backup\archivos\repos\topicos-de-programacion\au07cadenasymatrices\cadenas.h
+
+1683638896 d:\backup\archivos\repos\topicos-de-programacion\au07cadenasymatrices\matrices.h
+	<stdio.h>
+	<stdlib.h>
+
+1683638896 d:\backup\archivos\repos\topicos-de-programacion\au07cadenasymatrices\minunit.h
+	<Windows.h>
+	<unistd.h>
+	<time.h>
+	<sys/time.h>
+	<sys/resource.h>
+	<sys/times.h>
+	<string.h>
+	<mach/mach.h>
+	<mach/mach_time.h>
+	<stdio.h>
+	<math.h>
+
+1683654317 source:d:\backup\archivos\repos\topicos-de-programacion\au07cadenasymatrices\matrices.c
+	"Matrices.h"
+
