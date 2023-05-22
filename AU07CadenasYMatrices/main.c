@@ -5,7 +5,7 @@
 #include "minunit.h"
 
 ///Decida que ejercicio va a hacer, comente lo que no haga
-//#define HAGOCADENAS
+#define HAGOCADENAS
 #define HAGOMATRIZ
 
 
