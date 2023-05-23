@@ -4,7 +4,11 @@
 
 void * copiarGen(void * d, void * s, int tam);
 
-void * forEach(void * vec, size_t ce, size_t tam, void (mostrar) (void *)){
+void * intercambiar(void * d1, void * d2, int tam);
+
+void * buscarMenor(void * vec, int tam, int (*cmp)(const void * a1, const void * a2));
+
+void * forEach(void * vec, size_t ce, size_t tam, void (*mostrar) (void *)){
     void * start = vec;
     for(int i = 0; i < ce; i++){
         mostrar(vec);
@@ -13,7 +17,7 @@ void * forEach(void * vec, size_t ce, size_t tam, void (mostrar) (void *)){
     return start;
 }
 
-void * reduce(void * vec, void * acum, size_t ce, size_t tam, void (accion)(void * elem, void * acum)){
+void * reduce(void * vec, void * acum, size_t ce, size_t tam, void (*accion)(void * elem, void * acum)){
     for(int i = 0; i < ce; i++){
         accion(vec, acum);
         vec += tam;
@@ -43,4 +47,33 @@ void * copiarGen(void * d, void * s, int tam){
         s++;
     }
     return d;
+}
+
+void * intercambiar(void * d1, void * d2, int tam){
+    char * aux = 0;
+    *aux = *((char*)d1);
+    *((char*)d1) = *((char*)d2);
+    *((char*)d2) = *aux;
+    for(int i = 1; i < tam; i++){
+        *aux = *((char*)d1);
+        *((char*)d1) = *((char*)d2);
+        *((char*)d2) = *aux;
+    }
+    return d1;
+}
+
+void * buscarMenor(void * vec, int ce, int tam, int (*cmp)(const void * a1, const void * a2)){
+    void * menor = vec;
+    vec += tam;
+    for(int i = 1; i < ce - 1; i++){
+        if(cmp(vec, menor) < 0){
+            intercambiar(vec, menor, tam);
+        }
+        vec += tam;
+    }
+    return menor;
+}
+
+int ordSeleccion(void * vec, size_t ce, size_t tam, int (*cmp)(const void * a1, const void * a2)){
+
 }
