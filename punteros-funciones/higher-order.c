@@ -6,7 +6,7 @@ void * copiarGen(void * d, void * s, int tam);
 
 void * intercambiar(void * d1, void * d2, int tam);
 
-void * buscarMenor(void * vec, int tam, int (*cmp)(const void * a1, const void * a2));
+void * buscarMenor(void * vec, int tam, int ce, int (*cmp)(const void * a1, const void * a2));
 
 void * forEach(void * vec, size_t ce, size_t tam, void (*mostrar) (void *)){
     void * start = vec;
@@ -75,5 +75,5 @@ void * buscarMenor(void * vec, int ce, int tam, int (*cmp)(const void * a1, cons
 }
 
 int ordSeleccion(void * vec, size_t ce, size_t tam, int (*cmp)(const void * a1, const void * a2)){
-
+    return 0;
 }

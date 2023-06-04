@@ -1,5 +1,5 @@
-#ifndef HIGHER-ORDER_H_INCLUDED
-#define HIGHER-ORDER_H_INCLUDED
+#ifndef HIGHER_ORDER_H_INCLUDED
+#define HIGHER_ORDER_H_INCLUDED
 
 #include <stdio.h>
 #include <stdlib.h>
